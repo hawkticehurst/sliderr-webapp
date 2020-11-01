@@ -1,0 +1,99 @@
+#welcome-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-container h1 {
+  margin: 1rem 0;
+}
+
+#welcome-container p {
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+#welcome-container button {
+  margin: 3rem 0;
+}
+
+/* -------- SMALL MOBILE STYLES -------- */
+
+@media only screen and (max-width: 320px) {
+  #welcome-container h1 {
+    font-size: 60px;
+  }
+  
+  #welcome-container p {
+    font-size: 20px;
+  }
+
+  #welcome-container button {
+    font-size: 14px;
+  }
+}
+
+/* -------- MEDIUM-LARGE MOBILE STYLES -------- */
+
+@media only screen and (min-width: 321px) and (max-width: 450px) {
+  #welcome-container h1 {
+    font-size: 70px;
+  }
+  
+  #welcome-container p {
+    font-size: 22px;
+  }
+
+  #welcome-container button {
+    font-size: 16px;
+  }
+}
+
+/* -------- TABLET STYLES -------- */
+
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  #welcome-container h1 {
+    font-size: 80px;
+  }
+  
+  #welcome-container p {
+    font-size: 24px;
+  }
+
+  #welcome-container button {
+    font-size: 20px;
+  }
+}
+
+/* -------- DESKTOP STYLES -------- */
+
+@media only screen and (min-width: 961px) {
+  #welcome-container h1 {
+    font-size: 75px;
+  }
+  
+  #welcome-container p {
+    font-size: 24px;
+  }
+
+  #welcome-container button {
+    font-size: 14px;
+  }
+}
+
+/* -------- BIG DESKTOP STYLES -------- */
+
+@media only screen and (min-width: 2000px) {
+  #welcome-container h1 {
+    font-size: 85px;
+  }
+  
+  #welcome-container p {
+    font-size: 24px;
+  }
+
+  #welcome-container button {
+    font-size: 16px;
+  }
+}

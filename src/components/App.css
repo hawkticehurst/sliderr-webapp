@@ -1,0 +1,50 @@
+/* ----- CSS Variables ----- */
+:root {
+  --red: rgb(250, 88, 88);
+  --green: rgb(65, 215, 95);
+  --background-color: rgb(27, 28, 31);
+  --card-color: rgb(55, 55, 63);
+
+  --font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+/* ----- Global Styles ----- */
+
+body {
+  font-family: var(--font-family);
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+  color: white;
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+header {
+  padding: 2rem 1rem 0 1rem;
+  -webkit-app-region: drag;
+}
+
+header h1 {
+  margin: 0;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
