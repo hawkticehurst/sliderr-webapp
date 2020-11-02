@@ -1,0 +1,11 @@
+.wide-button {
+  color: white;
+  background-color: var(--card-color);
+  font-size: 26px;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
