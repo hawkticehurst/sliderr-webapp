@@ -8,7 +8,7 @@ function SliderController() {
   const [isConnected, setIsConnected] = useState<boolean>(false);
   const [isLeftBoundary, setIsLeftBoundary] = useState<boolean>(false);
   const [isRightBoundary, setIsRightBoundary] = useState<boolean>(false);
-  const [isSliderSetUp, setIsSliderSetUp] = useState<boolean>(false);
+  const [isSliderSetUp, setIsSliderSetUp] = useState<boolean>(true);
 
   useEffect(() => {
     if (navigator.bluetooth) {

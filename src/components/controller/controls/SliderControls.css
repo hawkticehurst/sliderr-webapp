@@ -1,0 +1,7 @@
+#controls-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
