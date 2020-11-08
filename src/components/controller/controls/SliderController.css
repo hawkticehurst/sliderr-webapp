@@ -1,0 +1,32 @@
+.slider-controller-container {
+  width: 90%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 0.25rem;
+  margin: 1rem 0;
+}
+
+.slider-controller-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.slider-controller-slider {
+  width: 98%;
+}
+
+/* Overriding Slider CSS Style */
+.rc-slider-tooltip-inner {
+  padding: 0.5rem 0 0;
+  min-width: 24px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(27, 28, 31);
+  border-radius: 0px;
+  box-shadow: 0 0 rgb(27, 28, 31);
+}
