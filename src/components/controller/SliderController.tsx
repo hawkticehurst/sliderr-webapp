@@ -5,7 +5,7 @@ import "./SliderController.css";
 
 function SliderController() {
   const [supportsBluetooth, setSupportsBluetooth] = useState<boolean>(false);
-  const [isConnected, setIsConnected] = useState<boolean>(true);
+  const [isConnected, setIsConnected] = useState<boolean>(false);
   const [isLeftBoundary, setIsLeftBoundary] = useState<boolean>(false);
   const [isRightBoundary, setIsRightBoundary] = useState<boolean>(false);
   const [isSliderSetUp, setIsSliderSetUp] = useState<boolean>(false);
