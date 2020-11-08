@@ -21,10 +21,10 @@ function ConnectSlider({ supportsBluetooth, connectToDevice }: Props) {
       ) : (
         <Fragment>
           <p>
-            Shoot! It looks like your device or browser does not support
-            Bluetooth.
+            Shoot! It looks like Bluetooth is not supported. Try using a
+            different device or browser.
           </p>
-          <p>Try using a different device or browser (such as Chrome).</p>
+          <p>Typically using Chrome on a computer or Android phone works.</p>
         </Fragment>
       )}
     </Fragment>
