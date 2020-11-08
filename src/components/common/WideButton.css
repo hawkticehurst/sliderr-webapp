@@ -1,6 +1,6 @@
 .wide-button {
   color: white;
-  background-color: var(--card-color);
+  background-color: rgb(55, 55, 63);
   font-size: 26px;
   font-weight: 600;
   padding: 1rem;
@@ -8,4 +8,8 @@
   width: 90%;
   display: flex;
   justify-content: center;
+}
+
+.wide-button:hover {
+  background-color: rgb(44, 44, 50);
 }
