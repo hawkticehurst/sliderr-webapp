@@ -1,5 +1,7 @@
 import React, { Fragment } from "react";
 import PrimaryButton from "../../common/PrimaryButton";
+import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
+import "./SetSliderBoundaries.css";
 
 type Props = {
   isLeftBoundary: boolean;
@@ -25,13 +27,10 @@ function SetSliderBoundaries({
             Please move the slider to the left edge and then set the left
             boundary.
           </p>
-          <section>
-            <PrimaryButton
-              buttonText="move left"
-              buttonCallback={() => {
-                alert("move left");
-              }}
-            />
+          <section className="set-boundary-button-container">
+            <button className="circle-button-2">
+              <HiArrowLeft className="circle-button-icon-2" />
+            </button>
             <PrimaryButton
               buttonText="set left boundary"
               buttonCallback={setLeftBoundary}
@@ -44,13 +43,10 @@ function SetSliderBoundaries({
             Great! Now move the slider to the right edge and set the right
             boundary.
           </p>
-          <section>
-            <PrimaryButton
-              buttonText="move right"
-              buttonCallback={() => {
-                alert("move right");
-              }}
-            />
+          <section className="set-boundary-button-container">
+            <button className="circle-button-2">
+              <HiArrowRight className="circle-button-icon-2" />
+            </button>
             <PrimaryButton
               buttonText="set right boundary"
               buttonCallback={setRightBoundary}
