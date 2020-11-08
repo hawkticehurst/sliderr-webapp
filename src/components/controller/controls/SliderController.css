@@ -17,6 +17,10 @@
 }
 
 /* Overriding Slider CSS Style */
+.rc-slider-tooltip-arrow {
+  display: none;
+}
+
 .rc-slider-tooltip-inner {
   padding: 0.5rem 0 0;
   min-width: 24px;
