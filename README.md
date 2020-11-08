@@ -10,11 +10,7 @@
 
 ## Status
 
-The [app](https://hawkticehurst.github.io/camera-slider-controller/) is under active development and acts as a prototyping tool for testing changes made to the [bluetooth camera slider](https://github.com/hawkticehurst/bluetooth-camera-slider).
-
-## Demo
-
-- [Web App Demo](https://youtu.be/_595bu9UEes)
+The webapp is under active development.
 
 ## Browser Support
 
@@ -23,12 +19,6 @@ The [app](https://hawkticehurst.github.io/camera-slider-controller/) is under ac
 | 56+    | 79+  | 43+   | No      | No     |
 
 Bluetooth functionality is currently implemented using the experimental [Bluetooth Web API](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web). A more detailed browser compatibility table can be found on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#Browser_compatibility).
-
-### Browser Testing
-
-Testing thus far has confirmed the latest version of Chrome on Mac desktops/laptops and Android phones can successfully connect to the slider, while iPhone connection remains elusive.
-
-Further testing that can confirm the usability of more browsers and devices is forthcoming.
 
 ## License
 
