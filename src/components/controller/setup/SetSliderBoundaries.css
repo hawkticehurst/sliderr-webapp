@@ -1,11 +1,17 @@
-.set-boundary-button-container {
+.set-boundary-container {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
 
-.set-boundary-button-container > .circle-button-2 {
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.button-container > .circle-button-2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +22,7 @@
   margin: 1rem 0;
 }
 
-.set-boundary-button-container .circle-button-icon-2 {
+.button-container .circle-button-icon-2 {
   height: 40px;
   width: 40px;
   min-height: 40px;
