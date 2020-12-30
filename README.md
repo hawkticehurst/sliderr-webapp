@@ -3,14 +3,10 @@
 <h4 align="center">A web app for controlling the <a href="https://github.com/hawkticehurst/sliderr">bluetooth camera slider</a>.</h4>
 
 <p align="center">
-  <a href="#status">Status</a>&nbsp;|&nbsp;<a href="#browser-support">Browser Support</a>&nbsp;|&nbsp;<a href="#license">License</a>
+  <a href="#browser-support">Browser Support</a>&nbsp;|&nbsp;<a href="#license">License</a>
 </p>
 
 <div align="center"><img src="assets/slider.gif"/></div>
-
-## Status
-
-The webapp is under active development.
 
 ## Browser Support
 
