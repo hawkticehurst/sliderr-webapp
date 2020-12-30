@@ -1,11 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
 import SliderSetup from "./setup/SliderSetup";
 import SliderControls from "./controls/SliderControls";
-import "./SliderController.css";
+import "./SliderControlContainer.css";
 
-function SliderController() {
+function SliderControlContainer() {
   const [supportsBluetooth, setSupportsBluetooth] = useState<boolean>(false);
-  const [isConnected, setIsConnected] = useState<boolean>(true);
+  const [isConnected, setIsConnected] = useState<boolean>(false);
   const [isLeftBoundary, setIsLeftBoundary] = useState<boolean>(false);
   const [isRightBoundary, setIsRightBoundary] = useState<boolean>(false);
   const [isSliderSetUp, setIsSliderSetUp] = useState<boolean>(false);
@@ -40,4 +40,4 @@ function SliderController() {
   );
 }
 
-export default SliderController;
+export default SliderControlContainer;
