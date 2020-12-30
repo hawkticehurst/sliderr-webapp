@@ -1,5 +1,10 @@
 import React, { Fragment } from "react";
 import PrimaryButton from "../../common/PrimaryButton";
+import {
+  stopSlider,
+  moveSliderLeft,
+  moveSliderRight,
+} from "../../../utils/bluetooth";
 import { HiArrowLeft, HiArrowRight } from "react-icons/hi";
 import "./SetSliderBoundaries.css";
 
@@ -27,10 +32,21 @@ function SetSliderBoundaries({
             Please move the slider to the left edge and then set the left
             boundary.
           </p>
-          <section className="set-boundary-button-container">
-            <button className="circle-button-2">
-              <HiArrowLeft className="circle-button-icon-2" />
-            </button>
+          <section className="set-boundary-container">
+            <section className="button-container">
+              <button
+                className="circle-button-2"
+                onMouseDown={moveSliderLeft}
+                onMouseUp={stopSlider}>
+                <HiArrowLeft className="circle-button-icon-2" />
+              </button>
+              <button
+                className="circle-button-2"
+                onMouseDown={moveSliderRight}
+                onMouseUp={stopSlider}>
+                <HiArrowRight className="circle-button-icon-2" />
+              </button>
+            </section>
             <PrimaryButton
               buttonText="set left boundary"
               buttonCallback={setLeftBoundary}
@@ -43,10 +59,21 @@ function SetSliderBoundaries({
             Great! Now move the slider to the right edge and set the right
             boundary.
           </p>
-          <section className="set-boundary-button-container">
-            <button className="circle-button-2">
-              <HiArrowRight className="circle-button-icon-2" />
-            </button>
+          <section className="set-boundary-container">
+            <section className="button-container">
+              <button
+                className="circle-button-2"
+                onMouseDown={moveSliderLeft}
+                onMouseUp={stopSlider}>
+                <HiArrowLeft className="circle-button-icon-2" />
+              </button>
+              <button
+                className="circle-button-2"
+                onMouseDown={moveSliderRight}
+                onMouseUp={stopSlider}>
+                <HiArrowRight className="circle-button-icon-2" />
+              </button>
+            </section>
             <PrimaryButton
               buttonText="set right boundary"
               buttonCallback={setRightBoundary}
