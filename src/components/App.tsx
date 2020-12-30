@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Welcome from "./welcome/Welcome";
-import SliderController from "./controller/SliderController";
+import SliderControlContainer from "./controller/SliderControlContainer";
 import "./App.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       {onWelcome ? (
         <Welcome callback={welcomeCallback} />
       ) : (
-        <SliderController />
+        <SliderControlContainer />
       )}
     </div>
   );
