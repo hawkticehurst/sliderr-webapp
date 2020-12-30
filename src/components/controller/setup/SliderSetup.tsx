@@ -5,7 +5,7 @@ import {
   connectToDevice,
   setLeftBoundary,
   setRightBoundary,
-} from "../../../slider/bluetooth";
+} from "../../../utils/bluetooth";
 
 type Props = {
   supportsBluetooth: boolean;
