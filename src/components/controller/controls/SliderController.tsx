@@ -5,10 +5,11 @@ import "./SliderController.css";
 
 type Props = {
   title: string;
+  onChangeFunc: (val: number) => void;
   defaultVal?: number;
 };
 
-function SliderController({ title, defaultVal }: Props) {
+function SliderController({ title, onChangeFunc, defaultVal }: Props) {
   const SliderWithTooltip = createSliderWithTooltip(Slider);
 
   return (
@@ -16,6 +17,7 @@ function SliderController({ title, defaultVal }: Props) {
       <h2>{title}</h2>
       <SliderWithTooltip
         className="slider-controller-slider"
+        onAfterChange={onChangeFunc}
         defaultValue={defaultVal}
         trackStyle={{ backgroundColor: "rgb(250, 250, 250)", height: 3 }}
         handleStyle={{
